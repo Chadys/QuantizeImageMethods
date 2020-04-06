@@ -1,3 +1,4 @@
+![quantize demo cover](imgs_results/quantize_cover.png)
 # Quantize Image Methods
 
 Here you'll find different methods to quantize images in Python using clusterisation. Choose your favorite!
@@ -209,7 +210,7 @@ We will use KMeans with same parameters and process as those used with SciPy, an
 ![sklearn_kmean image desert road](imgs_results/test_img_simon-launay-nYcAQhgpXRk-unsplash_sklearn_kmean.png) | ![sklearn_kmean image tree flower closeup](imgs_results/test_img_simon-launay-pTaryUjCPkw-unsplash_sklearn_kmean.png) | ![sklearn_kmean image children playground](imgs_results/test_img_simon-launay-RIyfkoXxWzc-unsplash_sklearn_kmean.png) | ![sklearn_kmean image girl portrait](imgs_results/test_img_simon-launay-x9WpMb1t2Nc-unsplash_sklearn_kmean.png)
 ![sklearn_kmean colours desert road](imgs_results/test_colours_simon-launay-nYcAQhgpXRk-unsplash_sklearn_kmean.png) | ![sklearn_kmean colours tree flower closeup](imgs_results/test_colours_simon-launay-pTaryUjCPkw-unsplash_sklearn_kmean.png) | ![sklearn_kmean colours children playground](imgs_results/test_colours_simon-launay-RIyfkoXxWzc-unsplash_sklearn_kmean.png) | ![sklearn_kmean colours girl portrait](imgs_results/test_colours_simon-launay-x9WpMb1t2Nc-unsplash_sklearn_kmean.png)
 
-sklearn_kmean time : 292.4821637319999 s
+sklearn_kmeans time : 292.4821637319999 s
 
 The time is once again ridiculously long, but since we can use the same trick as with Scipy, let's see the results with it.
 
@@ -481,7 +482,7 @@ I hope these samples will help you to reach a decision if you one day need to do
 
 
 ### Notes:
-- The code used assumes the you are only using RGB images. It will need tweaking to support more image formats, but it won't be hard to do once you've chosen your method.
+- The code used assumes that you are only using RGB images. It will need tweaking to support more image formats, but it won't be hard to do once you've chosen your method.
 - I am not a professional benchmarker, but these time results are so far from each other that my naive implementation is probably enough to get an accurate idea of the time difference magnitude.
 - The constants used as parameters for the different functions might not be the best ones, theses results were just produced to give me an idea of what to expect.
 - This list is of course not exhaustive, don't hesitate to suggest other options to me!
